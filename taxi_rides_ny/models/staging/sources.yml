@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "The raw data from the NYC Taxi and Limousine Commission"
+    database: project-171ed7ef-0c5d-4a96-902
+    schema: vinayak_kestra_zoomcamp_dataset
+    tables:
+      - name: yellow_tripdata
+      - name: green_tripdata

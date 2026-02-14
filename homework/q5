@@ -1,0 +1,6 @@
+select count(*)  FROM `project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset_marts.fct_trips`
+where service_type = 'Green'
+and extract (year from pickup_datetime ) = 2019
+and extract (month from pickup_datetime)  = 10;
+
+384,624

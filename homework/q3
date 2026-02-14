@@ -1,0 +1,5 @@
+--q3
+select count(*) from 
+`project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset_marts.fct_monthly_zone_revenue`
+
+12184

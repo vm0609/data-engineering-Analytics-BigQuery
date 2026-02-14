@@ -1,0 +1,11 @@
+SELECT 
+    pickup_zone,
+    SUM(revenue_monthly_total_amount) as total_revenue_2020
+FROM `project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset_marts.fct_monthly_zone_revenue`
+WHERE service_type = 'Green'
+  AND EXTRACT(YEAR FROM revenue_month) = 2020
+GROUP BY pickup_zone
+ORDER BY total_revenue_2020 DESC
+LIMIT 1;
+
+East Harlem North	1815309.55

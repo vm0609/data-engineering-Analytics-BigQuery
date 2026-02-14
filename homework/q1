@@ -1,0 +1,3 @@
+dbt run --select int_trips_unioned builds which models? 
+
+int_trips_unioned only
